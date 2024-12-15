@@ -37,7 +37,9 @@ function Header() {
             </div>
             <div className="col-md-2">
               <div className="float-end">
-                <img src={location} alt="location" />
+                <a href="">
+                  <img src={location} alt="location" />
+                </a>
               </div>
             </div>
           </div>
