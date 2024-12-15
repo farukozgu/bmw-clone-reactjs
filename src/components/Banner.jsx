@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css";
-// import bannerVideo from "../assets/bannerVideo.mp4";
 
 function Banner() {
   return (
@@ -20,10 +19,6 @@ function Banner() {
           </div>
         </div>
       </div>
-      <video className="background-video" autoPlay loop muted playsInline>
-        <source src="../assets/bannerVideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
     </section>
   );
 }
