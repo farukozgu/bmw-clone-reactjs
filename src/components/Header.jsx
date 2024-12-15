@@ -36,7 +36,7 @@ function Header() {
               </nav>
             </div>
             <div className="col-md-2">
-              <div>
+              <div className="float-end">
                 <img src={location} alt="location" />
               </div>
             </div>
