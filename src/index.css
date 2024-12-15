@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "BMWTypeNextPro";
+  src: url(./fonts/BMWTypeNextPro.ttf);
+}
+
+* {
+  font-family: "BMWTypeNextPro", Arial, Helvetica, Roboto, sans-serif;
+}
