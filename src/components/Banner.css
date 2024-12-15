@@ -22,9 +22,10 @@
     background-color: #1c69d4;
     color: #fff;
     width: 100%;
-    max-width: 222px;
-    height: 50px;
+    max-width: 250px;
+    height: 60px;
     border: none;
+    margin-top: 1rem;
 }
 
 .inceleBtn:hover {
