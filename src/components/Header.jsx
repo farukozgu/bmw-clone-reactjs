@@ -8,12 +8,12 @@ function Header() {
     <>
       <header className="header">
         <div className="container">
-          <div className="row">
-            <div className="col-md-10 d-flex">
+          <div className="row align-items-center">
+            <div className="col-md-10 d-flex align-items-center">
               <div className="logo">
                 <img src={logo} alt="BMW Logo" />
               </div>
-              <nav className="nav">
+              <nav className="nav ps-4">
                 <ul>
                   <li>
                     <a href="#modeller">Modeller</a>
