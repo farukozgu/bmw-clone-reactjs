@@ -19,7 +19,7 @@ function Banner() {
             <p className="bannerDsc">
               BMW modellerinde özel yıl sonu fırsatları.
             </p>
-            <button className="inceleBtn">İnceleyin</button>
+            <button className="examineBtn">İnceleyin</button>
           </div>
         </div>
       </div>
