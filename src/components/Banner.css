@@ -1,34 +1,35 @@
 .banner {
-    background-image: url(../assets/banner.png);
-    height: 80vh;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url(../assets/banner.png);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .bannerTitle {
-    color: #fff;
-    font-size: 55px;
-    line-height: inherit;
+  color: #fff;
+  font-size: 55px;
+  line-height: inherit;
 }
 
 .bannerDsc {
-    color: #fff;
-    font-size: 25px;
+  color: #fff;
+  font-size: 25px;
 }
 
 .inceleBtn {
-    background-color: #1c69d4;
-    color: #fff;
-    width: 100%;
-    max-width: 250px;
-    height: 60px;
-    border: none;
-    margin-top: 1rem;
+  background-color: #1c69d4;
+  color: #fff;
+  width: 100%;
+  max-width: 250px;
+  height: 60px;
+  border: none;
+  margin-top: 1rem;
 }
 
 .inceleBtn:hover {
-    background-color: #0056cc;
+  background-color: #0056cc;
 }
