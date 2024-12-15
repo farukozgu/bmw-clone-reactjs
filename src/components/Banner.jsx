@@ -8,6 +8,7 @@ function Banner() {
       <video className="videoTag" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
+      
       <div className="container">
         <div className="row bannerRow">
           <div className="col-md-12 bannerTexts">
