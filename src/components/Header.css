@@ -31,7 +31,7 @@
 .nav a {
   text-decoration: none;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .nav a:hover {
@@ -39,4 +39,15 @@
   text-decoration-thickness: 3px;
   text-decoration-color: #1c69d4;
   text-underline-offset: 2.2rem;
+}
+
+@media (max-width: 1200px) {
+  .nav a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .nav {
+    display: none;
+  }
 }
