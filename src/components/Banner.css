@@ -1,3 +1,26 @@
 .banner {
-  background-image: url(../assets/banner.png);
+    background-image: url(../assets/banner.png);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerTitle {
+    color: #fff;
+    font-size: 55px;
+}
+
+.bannerDsc {
+    color: #fff;
+    font-size: 25px;
+}
+
+.inceleBtn {
+    background-color: #1c69d4;
+    color: #fff;
+    width: 100%;
+    max-width: 222px;
 }

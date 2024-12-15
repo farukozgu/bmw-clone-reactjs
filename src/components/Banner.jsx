@@ -14,7 +14,7 @@ function Banner() {
               BİR RUH EŞİ.
             </h1>
             <p className="bannerDsc">
-              BMW modellerinde öze yıl sonu fırsatları.
+              BMW modellerinde özel yıl sonu fırsatları.
             </p>
             <button className="inceleBtn">İnceleyin</button>
           </div>
