@@ -23,4 +23,10 @@
     color: #fff;
     width: 100%;
     max-width: 222px;
+    height: 50px;
+    border: none;
+}
+
+.inceleBtn:hover {
+    background-color: #0056cc;
 }
