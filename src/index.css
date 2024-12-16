@@ -10,3 +10,8 @@
 * {
   font-family: "BMWTypeNextPro", Arial, Helvetica, Roboto, sans-serif;
 }
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

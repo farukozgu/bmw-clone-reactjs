@@ -14,14 +14,14 @@ function App() {
       <Header />
       <Banner />
       <Reserved  />
-      <>
+      
       <div className="cards">
-      <Reserved title="Online rezerve edin" button="BMW'ni Bul'a Gidin" image={carIcon} />
-      <Reserved title="Fiyat Listesi" button="İnceleyin" image={listIcon}/>
-      <Reserved title="Ayın Özel Teklifleri" button="Keşfedin" image={offerIcon}/>
-      <Reserved title="BMW Canlı Destek" button="Görüşmeyi başlatın" image={chatIcon}/>
+      <Reserved title="Online rezerve edin" onButtonClick={() => handleButtonClick('Muratcan Salih')} buttonText="Bilgileri Gör" image={carIcon} />
+      <Reserved title="Fiyat Listesi" onButtonClick={() => handleButtonClick('Muratcan Salih')} buttonText="Bilgileri Gör" image={listIcon}/>
+      <Reserved title="Ayın Özel Teklifleri" onButtonClick={() => handleButtonClick('Muratcan Salih')} buttonText="Bilgileri Gör" image={offerIcon}/>
+      <Reserved title="BMW Canlı Destek" onButtonClick={() => handleButtonClick('Muratcan Salih')} buttonText="Bilgileri Gör" image={chatIcon}/>
       </div>
-      </>
+      
     </>
   );
 }

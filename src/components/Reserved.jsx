@@ -6,12 +6,10 @@ export default function Reserved({image, title, button}) {
     <section>
         <div className="container">
             <div className="row">
-                <div className="col-md-12">
-                    <div>
+                <div className="col-md-12 cardBody">
                         <img src={image}/>
                         <p>{title}</p>
-                        <button>{button}</button>
-                    </div>
+                        <button onClick={onButtonClick}>{buttonText}</button>
                 </div>
             </div>
         </div>
