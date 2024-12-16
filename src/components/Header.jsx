@@ -3,6 +3,7 @@ import "./Header.css";
 import logo from "../assets/logo.svg";
 import mobileLogo from "../assets/mobileLogo.svg";
 import location from "../assets/location.png";
+import locationMobile from "../assets/locationMobile.png";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useEffect } from "react";
@@ -59,6 +60,12 @@ function Header() {
                 <img src={location} alt="location" />
               </a>
               <div className="navbarToggle">
+                <a
+                  className={`locationMobile ${isOpen ? "location-open" : ""}`}
+                  href=""
+                >
+                  <img src={locationMobile} alt="location" />
+                </a>
                 <button
                   onClick={toggleNavbar}
                   className={`menu-toggle ${isOpen ? "open" : ""}`}

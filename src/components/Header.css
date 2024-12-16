@@ -89,6 +89,13 @@
     display: none; /* Mobil ekranlarda görünmesin */
   }
 
+  .locationMobile {
+    display: none;
+  }
+  .location-open {
+    display: block;
+  }
+
   .mobileNav {
     display: block; /* Mobil ekranlarda görünsün */
   }
@@ -97,6 +104,8 @@
     height: 40px;
   }
   .navbarToggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 }
