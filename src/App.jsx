@@ -14,24 +14,30 @@ function App() {
       <Header />
       <Banner />
       <>
-        <h1 className="reservedTitle">BMW'nizi Rezerve Edin.</h1>
-        <div className="cards">
-          <Reserved
-            title="Online rezerve edin"
-            button="BMW'ni Bul'a Gidin"
-            image={carIcon}
-          />
-          <Reserved title="Fiyat Listesi" button="İnceleyin" image={listIcon} />
-          <Reserved
-            title="Ayın Özel Teklifleri"
-            button="Keşfedin"
-            image={offerIcon}
-          />
-          <Reserved
-            title="BMW Canlı Destek"
-            button="Görüşmeyi başlatın"
-            image={chatIcon}
-          />
+        <div className="container">
+          <h1 className="reservedTitle">BMW'nizi Rezerve Edin.</h1>
+          <div className="cards">
+            <Reserved
+              title="Online rezerve edin"
+              button="BMW'ni Bul'a Gidin"
+              image={carIcon}
+            />
+            <Reserved
+              title="Fiyat Listesi"
+              button="İnceleyin"
+              image={listIcon}
+            />
+            <Reserved
+              title="Ayın Özel Teklifleri"
+              button="Keşfedin"
+              image={offerIcon}
+            />
+            <Reserved
+              title="BMW Canlı Destek"
+              button="Görüşmeyi başlatın"
+              image={chatIcon}
+            />
+          </div>
         </div>
       </>
     </>
