@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Reserved from "./components/Reserved";
 import Model from "./components/Model";
 import BmwExperience from "./components/BmwExperience";
+import Footer from "./components/Footer";
 import carIcon from "./assets/icon-1.png";
 import listIcon from "./assets/icon-2.png";
 import offerIcon from "./assets/icon-3.png";
@@ -63,6 +64,7 @@ function App() {
         </div>
       </>
       <BmwExperience />
+      <Footer />
     </>
   );
 }
