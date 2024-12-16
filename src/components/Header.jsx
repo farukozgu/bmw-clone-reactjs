@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../assets/logo.svg";
-import logoMobile from "../assets/logoMobile.SVG";
+import mobileLogo from "../assets/mobileLogo.svg";
 import location from "../assets/location.png";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -31,8 +31,7 @@ function Header() {
         <div className="container">
           <div className={`navbar ${isOpen ? "navbar-open" : ""}`}>
             <div className="logo">
-              <img className="desktoplogo" src={logo} alt="BMW Logo" />
-              <img className="mobileLogo" src={logoMobile} alt="BMW Logo" />
+              <img src={isOpen ? mobileLogo : logo} alt="BMW Logo" />{" "}
             </div>
             <nav className="desktopNav nav ps-4">
               <ul>

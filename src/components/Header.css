@@ -28,12 +28,8 @@
   border-bottom: 1px solid #bbb;
 }
 
-.desktopLogo {
+.logo img {
   height: 52px;
-}
-
-.mobileLogo {
-  display: none;
 }
 
 .nav ul {
@@ -94,9 +90,6 @@
   }
 
   .logo img {
-    width: 40px;
-  }
-  .mobileLogo {
-    display: block;
+    height: 40px;
   }
 }
