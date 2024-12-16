@@ -30,9 +30,6 @@ function Header() {
       <header className={`header ${isOpen ? "menu-open" : ""}`}>
         <div className="container">
           <div className={`navbar ${isOpen ? "navbar-open" : ""}`}>
-            {/* <div className="logo">
-              <img src={isOpen ? mobileLogo : logo} alt="BMW Logo" />{" "}
-            </div> */}
             <div className="parentNav flex items-center">
               <img src={isOpen ? mobileLogo : logo} alt="BMW Logo" />{" "}
               <nav className="desktopNav nav ps-4">
