@@ -17,7 +17,7 @@ function Header() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 991) {
-        setIsOpen(false); // Masaüstüne geçildiğinde menüyü kapat
+        setIsOpen(false);
       }
     };
 
