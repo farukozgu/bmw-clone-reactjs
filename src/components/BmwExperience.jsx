@@ -7,10 +7,10 @@ export default function BmwExperience() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-sm-12 col-md-7 experienceImage">
+        <div className="col-md-12 col-lg-7 experienceImage">
           <img src={experienceImg} className="experienceImg" />
         </div>
-        <div className="col-sm-12 col-md-5 experienceTexts">
+        <div className="col-md-12 col-lg-5 experienceTexts">
           <h1 className="experienceTitle">
             Yepyeni Bir Müşteri Deneyimi: BMW’ni Bul Yenilendi.
           </h1>

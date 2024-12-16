@@ -9,7 +9,7 @@ function Model({ model, title, span, button, backgroundImage }) {
           className="modelDiv"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         >
-          <div className="col-md-6 modelSub">
+          <div className="col-md-12 modelSub">
             <span className="model">{model}</span>
             <h1 className="modelTitle">{title}</h1>
             <span className="modelSpan">{span}</span>

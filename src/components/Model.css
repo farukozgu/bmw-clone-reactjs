@@ -5,7 +5,7 @@
   margin: 1.5rem 0;
   display: flex;
   align-items: center;
-  padding: 0 5rem;
+  padding: 2rem 5rem;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,15 +23,15 @@
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0) 60%
+    rgba(0, 0, 0, 0) 100%
   );
-  pointer-events: none; /* Tıklanabilirliği engellemek için */
-  z-index: 0; /* Overlay'i arka plana alıyoruz */
+  pointer-events: none;
+  z-index: 0;
 }
 
-.modelDiv .col-md-6 {
+.modelDiv .modelSub {
   position: relative;
-  z-index: 1; /* Yazıları overlay'in önüne getiriyoruz */
+  z-index: 1;
 }
 
 .modelSub {
@@ -62,4 +62,29 @@
   min-width: 250px;
   color: #fff;
   margin-top: 1rem;
+}
+
+@media (max-width: 991px) {
+  .modelDiv {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .modelSub {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .modelTitle {
+    font-size: 27px;
+  }
+  .modelSpan {
+    font-size: 17px;
+  }
+  .modelDiv::before {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
 }

@@ -42,4 +42,9 @@
     font-size: 17px;
   }
 }
+@media (max-width: 767px) {
+  .experienceImg {
+    padding: 1rem;
+  }
+}
 /* mobile */

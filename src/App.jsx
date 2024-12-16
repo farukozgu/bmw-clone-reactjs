@@ -45,7 +45,7 @@ function App() {
         </div>
       </>
       <>
-        <div className="container">
+        <div className="container-fluid modelContainer">
           <Model
             model="THE 1"
             title="Yeni BMW 120."
