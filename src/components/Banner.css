@@ -65,9 +65,10 @@
     max-width: unset;
   }
 }
-
+/* mobile */
 @media (max-width: 767px) {
   .banner {
     min-height: 100vh;
   }
 }
+/* mobile */
