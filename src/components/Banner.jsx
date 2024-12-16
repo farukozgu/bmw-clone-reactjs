@@ -19,8 +19,9 @@ function Banner() {
           </div>
         </div>
       </div>
+      
     </section>
-    
+
   );
 }
 
