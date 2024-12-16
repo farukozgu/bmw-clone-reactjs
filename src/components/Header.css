@@ -63,7 +63,7 @@
 }
 
 .mobileNav ul li a {
-  color: black;
+  color: #666;
 }
 
 .menu-toggle .icon {
@@ -72,7 +72,7 @@
 }
 
 .menu-toggle.open .icon {
-  color: black;
+  color: #666;
 }
 .navbarToggle {
   display: none;
