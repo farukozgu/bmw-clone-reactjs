@@ -58,7 +58,7 @@ function Header() {
               <a className="location-a" href="">
                 <img src={location} alt="location" />
               </a>
-              <div className="lg:hidden">
+              <div className="navbarToggle">
                 <button
                   onClick={toggleNavbar}
                   className={`menu-toggle ${isOpen ? "open" : ""}`}

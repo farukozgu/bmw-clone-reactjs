@@ -74,6 +74,9 @@
 .menu-toggle.open .icon {
   color: black;
 }
+.navbarToggle {
+  display: none;
+}
 
 @media (max-width: 1200px) {
   .nav a {
@@ -92,5 +95,8 @@
 
   .logo img {
     height: 40px;
+  }
+  .navbarToggle {
+    display: block;
   }
 }
