@@ -7,6 +7,15 @@
 }
 .lineFirstText {
   margin-bottom: 0;
+  font-size: 12px;
+  color: #262626;
+}
+.lnkFirstLine {
+  color: #262626;
+  text-decoration: none;
+}
+.lnkFirstLine:hover {
+  color: rgb(5 86 205);
 }
 .footerBlock {
   display: flex;
@@ -24,6 +33,7 @@
   text-decoration: none;
   transition: 0.3s;
   font-weight: 700;
+  cursor: pointer;
 }
 .lnkBlock:hover {
   color: #282828;
@@ -31,9 +41,57 @@
 .footerContainer {
   background-color: #f6f6f6;
 }
-
+.footerContainerLast {
+  background-color: #fff;
+  padding: 1rem;
+}
 .footerParent {
   max-width: 1700px;
   margin: auto;
   padding: 4rem 0;
+}
+.footerParentLast {
+  max-width: 1700px;
+  margin: auto;
+  padding: 2rem 0;
+}
+.footerIcon {
+  gap: 1rem;
+  height: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: end;
+}
+.ftIcon {
+  width: 100%;
+  height: 100%;
+  max-width: 35px;
+  padding: 0;
+  cursor: pointer;
+}
+.firstRow {
+  max-width: 1700px;
+  margin: auto;
+}
+.containerBorder {
+  border-top: 0.5px solid #e6e6e6;
+  margin-top: 5rem;
+}
+.bmwCode {
+  margin-bottom: 0;
+  color: #262626;
+  font-size: 20px;
+}
+.lastRight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lastBlank {
+  text-decoration: none;
+  color: #262626;
+  transition: 0.1s;
+}
+.lastBlank:hover {
+  color: rgb(5 86 205);
 }
