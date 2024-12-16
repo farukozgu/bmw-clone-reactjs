@@ -1,6 +1,7 @@
 import React from "react";
 import "./BmwExperience.css";
 import experienceImg from "../assets/bmw-connected-drive-main-teaser.jpeg";
+import linkIcon from "../assets/iconLink.png";
 
 export default function BmwExperience() {
   return (
@@ -20,7 +21,9 @@ export default function BmwExperience() {
             Aklınızdaki BMW otomobilini bulun, test sürüş randevusu alın ya da
             servis randevunuzu hızlıca oluşturun.
           </p>
-          <button className="experienceBtn">Şimdi Keşfedin</button>
+          <button className="experienceBtn">
+            Şimdi Keşfedin <img src={linkIcon} />
+          </button>
         </div>
       </div>
     </div>
