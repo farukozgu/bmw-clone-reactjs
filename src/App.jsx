@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Banner />
       <>
+        <h1 className="reservedTitle">BMW'nizi Rezerve Edin.</h1>
         <div className="cards">
           <Reserved
             title="Online rezerve edin"

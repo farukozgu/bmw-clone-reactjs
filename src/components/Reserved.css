@@ -10,3 +10,18 @@
   align-items: center;
   flex-direction: column;
 }
+.iconCard {
+  width: 100%;
+  max-width: 45px;
+}
+.detailP {
+  color: #262626;
+  font-size: 25px;
+  margin-top: 3rem;
+}
+.cardBtn {
+  width: 100%;
+  border: 1px solid black;
+  height: 50px;
+  min-width: 300px;
+}
