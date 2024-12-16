@@ -20,6 +20,7 @@ function Banner() {
         </div>
       </div>
     </section>
+    
   );
 }
 
