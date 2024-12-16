@@ -28,6 +28,12 @@
 .lnkBlock:hover {
   color: #282828;
 }
-.secondBlock {
+.footerContainer {
   background-color: #f6f6f6;
+}
+
+.footerParent {
+  max-width: 1700px;
+  margin: auto;
+  padding: 4rem 0;
 }
