@@ -11,11 +11,7 @@ function Banner() {
       <div className="container">
         <div className="row bannerRow">
           <div className="col-md-12 bannerTexts">
-            <h1 className="bannerTitle">
-              BMW RUHU: HER RUHA
-              <br />
-              BİR RUH EŞİ.
-            </h1>
+            <h1 className="bannerTitle">BMW RUHU: HER RUHA BİR RUH EŞİ.</h1>
             <p className="bannerDsc">
               BMW modellerinde özel yıl sonu fırsatları.
             </p>
