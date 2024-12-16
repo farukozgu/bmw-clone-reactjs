@@ -11,6 +11,10 @@
   flex-direction: column;
   min-width: 400px;
 }
+.reservedTitle {
+  color: #262626;
+  font-size: 40px;
+}
 .iconCard {
   width: 100%;
   max-width: 45px;
@@ -41,6 +45,11 @@
 @media screen and (max-width: 1258px) {
   .cardBtn {
     margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 490px) {
+  .reservedTitle {
+    font-size: 30px;
   }
 }
 /* mobile */
