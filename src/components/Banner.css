@@ -47,7 +47,7 @@
   object-fit: cover;
   z-index: -1;
 }
-
+/* mobile */
 @media screen and (max-width: 991px) {
   .bannerTitle {
     font-size: 35px;
@@ -65,7 +65,7 @@
     max-width: unset;
   }
 }
-/* mobile */
+
 @media (max-width: 767px) {
   .banner {
     min-height: 100vh;
