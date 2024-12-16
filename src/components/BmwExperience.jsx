@@ -1,8 +1,6 @@
 import React from "react";
 import "./BmwExperience.css";
 
-import React from "react";
-
 export default function BmwExperience() {
   return (
     <div className="container">
