@@ -1,3 +1,8 @@
+@media (min-width: 1920px) {
+  .banner {
+    height: 70vh;
+  }
+}
 .banner {
   /* background-image: url(../assets/banner.jpg); */
   height: 90vh;
@@ -46,11 +51,6 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-}
-@media (min-width: 1920px) {
-  .banner {
-    height: 70vh;
-  }
 }
 
 @media screen and (max-width: 991px) {
