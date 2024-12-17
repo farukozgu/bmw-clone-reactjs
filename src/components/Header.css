@@ -24,9 +24,6 @@
   border-bottom: 1px solid #fff;
   padding-bottom: 1.2rem;
 }
-.navbar-open {
-  border-bottom: 1px solid #bbb;
-}
 
 .logo img {
   height: 52px;
@@ -103,6 +100,13 @@
   .logo img {
     height: 40px;
   }
+  .navbar {
+    border-bottom: none;
+  }
+  .navbar-open {
+    border-bottom: 1px solid #bbb;
+  }
+
   .navbarToggle {
     display: flex;
     align-items: center;

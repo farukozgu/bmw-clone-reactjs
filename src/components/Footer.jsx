@@ -104,10 +104,10 @@ export default function Footer() {
       <div className="container-fluid footerContainerLast">
         <div className="footerParentLast">
           <div className="row">
-            <div className="col-md-6 lastLeft">
+            <div className="col-md-12 col-lg-3 lastLeft">
               <p className="bmwCode">© BMW AG 2024</p>
             </div>
-            <div className="col-md-6 lastRight">
+            <div className="col-md-12 col-lg-9 lastRight">
               <a className="lastBlank" href="">
                 Yakıt Ekonomisi ve Emisyon Bilgileri
               </a>
