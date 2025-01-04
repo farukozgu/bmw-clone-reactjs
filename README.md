@@ -5,8 +5,7 @@ This project is a clone of BMW's official landing page, developed using React. I
 ## Technologies Used
 - React.js
 - CSS (Flexbox/Grid)
-- React Router (if applicable)
-- Axios (if applicable)
+- React State
 
 ## Features
 - Modern design resembling BMW's landing page
@@ -27,7 +26,7 @@ Follow these steps to set up the project locally:
 Open http://localhost:3000 in your browser to view the project.
 
 ## Live Demo
-You can view the live demo of the project here.
+You can view the live demo of the project [here](https://bmwclonereact.netlify.app/).
 
 
 ## Contribution
