@@ -1,4 +1,4 @@
-# BMW Landing Page Clone
+# BMW Turkey Landing Page Clone
 
 This project is a clone of BMW's official landing page, developed using React. It replicates the modern design and functionality of the original page, showcasing responsive layout and interactive features. The goal of this project is to enhance front-end development skills and gain hands-on experience with React.
 
@@ -18,8 +18,8 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-     git clone https://github.com/yourusername/bmw-landing-clone.git
-     cd bmw-landing-clone
+     git clone https://github.com/farukozgu/bmw-clone-reactjs.git
+     cd bmw-clone-reactjs
      npm install
      npm run dev
 
